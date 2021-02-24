@@ -1,0 +1,45 @@
+Intro to express 
+
+npm init -y
+
+npm install express
+
+#voacabulary
+
+#route 
+-Like an event listener
+-like an http request
+
+#endpoint
+*/item */user like the end of a url 
+
+#Port
+- Local host 9000
+
+
+#package NodeMon
+- npm install -g nodemon
+
+
+//Definintions
+Rest - Representational State Transfer
+
+Resource - Single item (object) in a database
+    /user
+
+Collection - A Collection of similar items in a database
+    /users
+
+Base(root) url - http://amazon.com/
+
+API endpoint - http://amazon.com/movies
+
+Parameters - /movies/:movieId
+
+Query (query stream) - /movies?genre=action&year=1999
+
+Clients - front end, website, interacting
+
+Server - Intermediary, recieves request and passing to cient 
+
+Request Methods - for most inportant GET PUT POST DELETE
