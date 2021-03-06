@@ -14,7 +14,15 @@ const users = [
 app.get("/users", (request, response) =>{
     response.send(users)
 })
+app.get("/", (request, response) =>{
+    response.send("Welcome Home")
+})
+app.get("/hello", (request, response) =>{
+    response.send("This is the hello Page")
+})
+
+
         //Port   //callback function
 app.listen(9000, () => {
-    console.log("Port 9000 showing 3 endpoints")
+    console.log("this is the loalhost:9000")
 })
