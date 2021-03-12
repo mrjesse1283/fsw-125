@@ -51,7 +51,7 @@ router.post('/', (req, res) => {
 
 //WEEK4 ASSIGNMENT1
 //DELETE 
-router.delete("/:bontyId", (req, res) => {
+router.delete("/:bountyId", (req, res) => {
     const bountyId = req.params.bountyId
     const bountyIndex = bounties.findIndex(bounty => bounty._id === bountyId)
     bounties.splice(bountyIndex, 1)
