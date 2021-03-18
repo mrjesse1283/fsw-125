@@ -19,10 +19,6 @@ const todos = [
         _id: uuidv4()
     }
 ]
-
-//routes
-// bountyRouter.use("/todos", require("./router/router.js"))
-
 //GET
 router.get("/", (req, res) => {
     res.send(todos)

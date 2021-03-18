@@ -1,10 +1,11 @@
+
 const express = require("express")
 const router = express.Router()
 const { v4: uuidv4 } = require('uuid');
 
 const bounties = [
     {
-        firstName: "Darth ",
+        firstName: "Darth",
         lastName: "Vader",
         living: true,
         bounty: 100,
@@ -40,9 +41,11 @@ router.get("/:bountyId", (req, res) => {
 //POST
 router.post('/', (req, res) => {
     const newBounty = req.body
+    console.log(newBounty)
     newBounty._id = uuidv4()
     bounties.push(newBounty)
-    res.send(`${newBounty.firstName} ${newBounty.lastName} was successfully added to the wanted list.`)
+    res.send(newBounty)
+    // res.send(`${newBounty.firstName} ${newBounty.lastName} was successfully added to the wanted list.`)
 }) 
 //WEEK4 ASSIGNMENT1
 //DELETE 

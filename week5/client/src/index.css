@@ -1,0 +1,63 @@
+* {
+  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1578406696385-30733a350486?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8cHJpc29uJTIwY2VsbHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  text-align: center;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  /* box-shadow: lightslategray; */
+  background-color: lawngreen;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 30%;
+}
+::placeholder {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 32px;
+}
+
+.bounty {
+  background-color: rgba(119, 136, 153, 0.748);
+  border: 1px solid #333;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.bountyBtn {
+  margin-left: 90%;
+}
+
+.delBtn {
+  background-color: red;
+  color: whitesmoke;
+}
+
+
+
