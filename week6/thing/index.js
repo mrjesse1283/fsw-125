@@ -22,7 +22,7 @@ router.get("/", (req, res) => {
     res.send(tools)
 })
 
-//get by Genre for QUERY
+//get by Genre for 
 router.get("/search/genre", (req,res) => {
     console.log(req)
     const genre = req.query.genre
